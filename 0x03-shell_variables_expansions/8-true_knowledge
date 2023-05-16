@@ -1,2 +1,2 @@
 #!/bin/bash
-((sum=128+$TRUEKNOWLEDGE)) && printf "%d\n" $sum
+echo $($TRUEKNOWLEDGE+128)
